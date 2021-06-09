@@ -1,6 +1,6 @@
 public class DiasSemana {
 
-    enum Dias{LUNES, MARTES, MIERCOLES, JUEVES, VIERNES}
+    enum Dias{LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO}
 
     public static void mostrarDia(){
         System.out.println("Hoy es " + Dias.MIERCOLES);
